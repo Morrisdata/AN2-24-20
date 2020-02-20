@@ -12,3 +12,9 @@
 |4/13|Fundamentals of Tableau|4/15|Organizing Data Pane|
 |4/20|Production line of charts|4/22|Dashboarding in Tableau|
 |4/27|Flex day, review, catchup, workshop|4/29|PRESENTATION|
+
+
+Excellent use of parts of a whole
+
+
+[![Alt text](https://img.youtube.com/vi/QFrqTFRy-LU/0.jpg)](https://www.youtube.com/watch?v=QFrqTFRy-LU)
