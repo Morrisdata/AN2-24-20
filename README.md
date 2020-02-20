@@ -1,7 +1,4 @@
-# AN2-24-20
-
-Data Analytics 
-
+# DATA ANALYTICS 2-24-20
 
 |DATE|CLASS|DATE|CLASS|
 |:---|:----|:---|:----|
