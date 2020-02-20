@@ -15,7 +15,7 @@
 
 
 Excellent use of parts of a whole
-[![]http://img.youtube.com/vi/QFrqTFRy-LU/0.jpg ](<iframe width="560" height="315" src="https://www.youtube.com/embed/QFrqTFRy-LU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)
+[!http://img.youtube.com/vi/QFrqTFRy-LU/0.jpg](<iframe width="560" height="315" src="https://www.youtube.com/embed/QFrqTFRy-LU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)
 
 
 
