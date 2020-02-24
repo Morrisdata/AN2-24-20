@@ -106,9 +106,9 @@ ________________________________________________________________________________
 RESOURCES 
 
 *	Review Specific Class Decks:
-*	Format, Clean, Manipulate data (Lesson 2 & 3)
-*	Dynamic Data Referencing (Lesson 4)
-*	Dynamic Data Aggregation (Lesson  5)
+*	Format, Clean, Manipulate data (Lesson 1 & 2)
+*	Dynamic Data Referencing (Lesson 2 & 3)
+*	Dynamic Data Aggregation (Lesson  3 & 4)
 *	Data Mining Framework  and Analytics Workflow Document
 *	Data Cleaning Walk-Through
 *	Excel keyboard shortcuts
