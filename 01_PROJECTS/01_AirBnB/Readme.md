@@ -1,7 +1,7 @@
 DELIVERABLES + TIMELINES
 
 1.	Five-minute Presentation - during Lesson 5
-○	Business needs as per your interpretation of the scenario;
+*	Business needs as per your interpretation of the scenario;
 ○	Data selected from the original file;
 ○	Cleaning methods used to remove erroneous data; 
 ○	Format: Google Slides or PDF (Keynote/PPT need to be exported); presentation will be given in small groups. 
