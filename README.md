@@ -13,9 +13,3 @@
 |4/20|Production line of charts|4/22|Dashboarding in Tableau|
 |4/27|Flex day, review, catchup, workshop|4/29|PRESENTATION|
 
-
-Excellent use of parts of a whole
-[!http://img.youtube.com/vi/QFrqTFRy-LU/0.jpg](<iframe width="560" height="315" src="https://www.youtube.com/embed/QFrqTFRy-LU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)
-
-
-
