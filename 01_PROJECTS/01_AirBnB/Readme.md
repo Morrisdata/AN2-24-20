@@ -9,16 +9,16 @@ DELIVERABLES + TIMELINES
   *	Format: Google Slides or PDF (Keynote/PPT need to be exported); presentation will be given in small groups. 
 
 2.	Excel Workbook - due by beginning of Lesson 6
-○	Include cleansed listing data, with requested data points included (as per Requirements section);
-○	Results of analysis are presented in separate worksheets, formatted and (if applicable to data) visualized;
-○	Include exploratory efforts using PivotTables, visualizations, and statistical review.
-○	Format: Excel file with multiple worksheets:
+*	Include cleansed listing data, with requested data points included (as per Requirements section);
+*	Results of analysis are presented in separate worksheets, formatted and (if applicable to data) visualized;
+*	Include exploratory efforts using PivotTables, visualizations, and statistical review.
+*	Format: Excel file with multiple worksheets:
 ■	Sheet 1: Cleansed listing data, with requested data points 
 ■	Other Sheets (as needed): Results of analysis and exploratory efforts. 
 
 3.	Data Handling Summary - due by beginning of Lesson 6
-○	In a separate file, summarize your approach to cleansing data.  Don’t include every step but do include the rationale behind your inclusion/exclusion of data and outliers; 
-○	Format:  Separate text file or worksheet. 
+*	In a separate file, summarize your approach to cleansing data.  Don’t include every step but do include the rationale behind your inclusion/exclusion of data and outliers; 
+*	Format:  Separate text file or worksheet. 
 
 *A detailed description of each deliverable can be found below in the “Requirements” section
 ____________________________________________________________________________
