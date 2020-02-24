@@ -1,4 +1,15 @@
 # DATA ANALYTICS 2-24-20
+[EXIT TICKET](https://docs.google.com/forms/d/e/1FAIpQLSfJYsVTfksUj3nBqhka6M5yhnr1wSu6lFWNqBe_-fXAQz5eyA/viewform)
+If at any point you feel lost in class please write down subject and flag me down during exercises or breaks. 
+I'm also available before class and after to discuss any topics. 
+
+Self Evaluation
+0 - Do not know
+1 - Aquiring knowledge ( in last 90 days)
+2 - Can apply with use of reference material(notes, google, stackoverflow) < 80% of the time
+3 - Can apply with little use of reference <20% of the time
+4 - Can teach or mentor 
+5 - Design, Optimize, Code Review, Improve
 
 |DATE|CLASS|DATE|CLASS|
 |:---|:----|:---|:----|
