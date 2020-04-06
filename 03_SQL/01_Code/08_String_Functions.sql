@@ -1,15 +1,5 @@
 
-/*
-SELECT item, description
-FROM sales
-LIMIT 100 */
-
--- CONCAT(field1, field2, field3…)
-
-SELECT CONCAT(item,' -  ',description)
-FROM sales
-LIMIT 100
-
+------STRING FUNCTIONS------
 
 -- LENGTH(field1)
 -- Use case Understanding your data, MIN MAX, ... Use order by to view top and bottoms
@@ -18,31 +8,56 @@ FROM sales
 LIMIT 100
 
 
+-- CONCAT(field1, field2, field3…)
+
+SELECT CONCAT(item,' -  ',description)
+FROM sales
+LIMIT 100
+
+-- BREAK Try concat on your own  with 3 fields in the stores table 
+
+
 -- LOWER: Converts a field or expression to lowercase.
-Syntax: LOWER(field1)
-Syntax: UPPER(field1)
+-- Syntax: LOWER(field1)
+-- Syntax: UPPER(field1)
 
 SELECT UPPER(CONCAT(item,' -  ',description))
 FROM sales
 LIMIT 100
 
 
-LEFT: Selects characters from left side.
-RIGHT: Selects characters from right side.
+-- LEFT: Selects characters from left side.
+-- RIGHT: Selects characters from right side.
 
-LEFT(field1, length)
+-- SYNTAX: LEFT(field1, length)
 
 SELECT CONCAT(item,' -  ',description),  
 LEFT(LOWER(CONCAT(item,' -  ',description)),5)
 FROM sales
 LIMIT 100
 
+--- BREAK Use LEFT to Bring back 3 from the left side of county in the counties table
 
-SUBSTRING(field1, starting_position, number_of_characters)
+SELECT counties
+FROM county
+
+
+-- SUBSTRING(field1, starting_position, number_of_characters)
 
 SELECT SUBSTRING(CONCAT(item,' -  ',description),9,35)
 FROM sales
 LIMIT 100
+
+
+
+-- BREAK using substring from starting position 9 bring back 5 characters from description in sales
+SELECT category_name
+FROM sales
+limit 100
+
+-- BREAK use the above code in a where clause to only bring back Category with VODKA do not use ILIKE
+
+
 
 -- SPLIT_PART ( split_part(field, what constitutes split, which number of the split))
 SELECT category_name,
@@ -55,23 +70,36 @@ FROM products
 WHERE category_name IS NOT NULL
 ORDER BY 6 DESC
 
+
+-- BREAK How might you use this in Mozilla firefox data? 10 minute exercise
+
 -- EXERCISE
 -- Using Split_part, substring, concat and lower, Turn Category_name from products in to proper case
-Left/Right Trim:
-LTRIM(field1)
 
-SELECT LTRIM(CONCAT(item,' -  ',description))
+
+
+
+
+
+-- Left/Right Trim:
+-- LTRIM(field1)
+
+SELECT 
+LENGTH(description), 
+LENGTH(CONCAT(description,'    ')),
+LENGTH(RTRIM(CONCAT(description,'   ')))
 FROM sales
 LIMIT 100
 
 
 
-TRIM: Removes specified characters from start of field, ending part of field, or both.
-SYNTAX
-TRIM( leading ‘characters’, from field1)
-TRIM( trailing ‘characters’, from field1)
-TRIM( both ‘characters’, from field1)	
-EXAMPLE
+-- TRIM: Removes specified characters from start of field, ending part of field, or both.
+-- SYNTAX
+-- TRIM( leading ‘characters’, from field1)
+-- TRIM( trailing ‘characters’, from field1)
+-- TRIM( both ‘characters’, from field1)	
+
+-- EXAMPLE
 SELECT 
 description, 
 TRIM( Leading 'A' from description), 
@@ -81,7 +109,7 @@ FROM sales
 LIMIT 100
 
 -- Exercise
--- remove any MISC at the beginning of any category name
+-- Remove any MISC at the beginning of any category name
 
 RELACE(field_to_change,  content_to_replace,  new_content)
 EXAMPLE
@@ -89,28 +117,53 @@ SELECT REPLACE(description, 'Absolut', 'Grey Goose')
 FROM sales
 LIMIT 100
 
- 
-CURRRENT_ DATE returns the current date from the system.
+--------------------------------------------------------
+--                DATES
+--------------------------------------------------------
+--CURRRENT_ DATE returns the current date from the system.
 
 SELECT item, total, date, CURRENT_DATE
 FROM sales
 LIMIT 100
 
-AGE returns the difference between two dates. 
-SYNTAX
-Age( date1, date2)
-EXAMPLE
-SELECT item, total, date, CURRENT_DATE, age(date, CURRENT_DATE)
+SELECT 
+CURRENT_DATE,
+CURRENT_DATE - 1 AS YESTERDAY,
+CURRENT_DATE - 7 AS LAST_WEEK,  
+CURRENT_DATE - 30 AS LAST_PERIOD, 
+CURRENT_DATE - 365 AS LAST_YEAR,
+CURRENT_DATE - 366 AS YESTERDAY_LAST_YEAR,
+CURRENT_DATE - 372 AS LAST_WEEK_LAST_YEAR,
+CURRENT_DATE - 395 AS LAST_PERIOD_LAST_YEAR
+
+-- BREAK try the above code What other special dates can you think of?
+
+-- INTERVIEW TYPE QUESTION " how would you get sales from last week on a rolling basis"
+SELECT sales
+FROM table
+WHERE sales_date = CURRENT_DATE - 7
+
+-- daily query to temp table "Special Days". 
+
+
+
+-- AGE returns the difference between two dates. 
+-- SYNTAX
+-- AGE( date1, date2)
+
+-- EXAMPLE
+SELECT item, total, date, CURRENT_DATE, age(CURRENT_DATE, date)
 FROM sales
 LIMIT 100
 
--- system functions
+-- System functions
 SELECT NOW()
+
 -- another way to CAST
 SELECT NOW()::date
 
 -- To manipulate dates further you may need to turn them into a charecter
--- 
+-- TO_CHAR
 SELECT TO_CHAR(NOW() :: DATE, 'dd/mm/yyyy');
 
 /*
@@ -125,16 +178,8 @@ How are dates used in your department?
 */
 
 /*
-EXERCISE
-You may or may not complete the following problem in the class time. 
-Continue to work through it, though, and see if you can come up with a solution. 
- 
-Categorize all of the items by age, based on list date and ranges of: 
-0-10 years, 11-20 years, 21-30 years, 31-40 years and 41+ years. 
-Then bring in the total sales.
+Putting it all together
 */
-
---SOLUTION
 
 
 SELECT DISTINCT b.item_no, b.item_description, b.list_date,
@@ -157,11 +202,6 @@ LIMIT 1000
 What is a good first step when approaching any new SQL problem? 
 Answer: Keep it simple and get something basic working, first.
 */
-
-
-
-
-
 
 
 
