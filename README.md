@@ -14,14 +14,14 @@ Self Evaluation
 
 |DATE|CLASS|DATE|CLASS|
 |:---|:----|:---|:----|
-|2/24|Fundamentals of Data, Review of pre-work|2/26|Data Referencing in Excel|
-|3/02|Aggregation in Excel|3/04|Data Narratives|
-|3/09|AirBnB PRESENTATION|3/11|Creating a Local Database|
-|3/16|Fundamentals of Databases and SQL|3/18|Filtering and Aggregating in SQL|
-|3/23|Querying Large Databases|3/25|Creating Mulitple Joins|
-|3/30|Data Aggregation in SQL|4/01|Using Subselects in SQL|
-|4/06|Applying Functions in SQL|4/08|Mozilla Firefox PRESENTATION|
-|4/13|Fundamentals of Tableau|4/15|Organizing Data Pane|
-|4/20|Production line of charts|4/22|Dashboarding in Tableau|
-|4/27|Flex day, review, catchup, workshop|4/29|PRESENTATION|
+01|Fundamentals of Data, Review of pre-work|02|Data Referencing in Excel|
+|03|Aggregation in Excel|04|Data Narratives|
+|05|AirBnB PRESENTATION|06|Creating a Local Database|
+|07|Fundamentals of Databases and SQL|08|Filtering and Aggregating in SQL|
+|09|Querying Large Databases|10|Creating Mulitple Joins|
+|11|Data Aggregation in SQL|12|Using Subselects in SQL|
+|13|Applying Functions in SQL|14|Mozilla Firefox PRESENTATION|
+|15|Fundamentals of Tableau|16|Organizing Data Pane|
+|17|Production line of charts|18|Dashboarding in Tableau|
+|19|Flex day, review, catchup, workshop|20|PRESENTATION|
 
