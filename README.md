@@ -1,4 +1,4 @@
-# DATA ANALYTICS 2-24-20
+# DATA ANALYTICS 
 [EXIT TICKET](https://docs.google.com/forms/d/e/1FAIpQLSfJYsVTfksUj3nBqhka6M5yhnr1wSu6lFWNqBe_-fXAQz5eyA/viewform)
 
 If at any point you feel lost in class please write down subject and flag me down during exercises or breaks. 
